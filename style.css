@@ -1,0 +1,28 @@
+body {
+    background-color: #4d4d4d;
+    color: black;
+    min-height: 100vh;
+    margin-bottom: 50px;
+}
+
+footer {
+    color: white;
+    background-color: #252525;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.jumbotron{
+    padding: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.project-logo {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
