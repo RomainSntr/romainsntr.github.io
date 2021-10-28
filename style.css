@@ -21,6 +21,13 @@ footer {
     padding-left: 30px;
 }
 
+.jumbotron-warning {
+    padding: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #ff8686;
+}
+
 .project-logo {
     height: 150px;
     width: 150px;
