@@ -8,6 +8,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+
+    <!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+    <!--<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>-->
+    <!--<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>-->
+
+    <script type="text/javascript" src="gallery.js"></script>
 </head>
 
 
@@ -45,7 +51,327 @@
         </div>
     </div>
 
-    <p>My drawings</p>
+
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="css/style.css">-->
+
+    <section class="portfolio" id="portfolio">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="gallery-title">My drawings</h1>
+                </div>
+
+                <div align="center">
+                    <button class="filter-button" data-filter="all">All</button>
+                    <button class="filter-button" data-filter="category1">Animated</button>
+                    <button class="filter-button" data-filter="category2">Dragon Age</button>
+                    <button class="filter-button" data-filter="category3">Final Fantasy</button>
+                    <button class="filter-button" data-filter="category4">Other</button>
+                </div>
+
+                <br />
+
+                <!--The Gift of Eternity-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category1">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/gif/VisionCard.gif">
+                        <img class="img-responsive" alt="" src="images/drawings/gif/VisionCard.gif" />
+                        <div class='img-info'>
+                            <h4>The Gift of Eternity</h4>
+                            <p>An animation of a scene from Final Fantasy XIII</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Inquisitor-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category2">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/dragonAge/Inquisitor.png">
+                        <img class="img-responsive" alt="" src="images/drawings/dragonAge/Inquisitor.png" />
+                        <div class='img-info'>
+                            <h4>The Inquisitor</h4>
+                            <p>The main character from the game Dragon Age: Inquisition</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Solas-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category2">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/dragonAge/Solas.png">
+                        <img class="img-responsive" alt="" src="images/drawings/dragonAge/Solas.png" />
+                        <div class='img-info'>
+                            <h4>Solas</h4>
+                            <p>The mysterious elf as he appears in the Trespasser DLC.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Dorian-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category2">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/dragonAge/Dorian.png">
+                        <img class="img-responsive" alt="" src="images/drawings/dragonAge/Dorian.png" />
+                        <div class='img-info'>
+                            <h4>Dorian</h4>
+                            <p>The Tevinter mage</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Vivienne Skyhold-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category2">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/dragonAge/Vivienne.png">
+                        <img class="img-responsive" alt="" src="images/drawings/dragonAge/Vivienne.png" />
+                        <div class='img-info'>
+                            <h4>Vienne</h4>
+                            <p>The First Enchanter of Montsimmard, Vivienne.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Vivienne Mask-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category2">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/dragonAge/Vivienne_Mask.png">
+                        <img class="img-responsive" alt="" src="images/drawings/dragonAge/Vivienne_Mask.png" />
+                        <div class='img-info'>
+                            <h4>Madame de Fer Vivienne</h4>
+                            <p>Vivienne in her battle outfit, wearing a traditional Orlesian mask.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Sera-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category2">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/dragonAge/Sera.png">
+                        <img class="img-responsive" alt="" src="images/drawings/dragonAge/Sera.png" />
+                        <div class='img-info'>
+                            <h4>Sera</h4>
+                            <p>An elven archer calling herself a Friend of Red Jenny who fights for the little people.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Cassandra-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category2">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/dragonAge/Cassandra_Skyhold.png">
+                        <img class="img-responsive" alt="" src="images/drawings/dragonAge/Cassandra_Skyhold.png" />
+                        <div class='img-info'>
+                            <h4>Cassandra</h4>
+                            <p>The Right Hand of the Divine who helped creating the Inquisition.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Varric-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category2">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/dragonAge/Varric.png">
+                        <img class="img-responsive" alt="" src="images/drawings/dragonAge/Varric.png" />
+                        <div class='img-info'>
+                            <h4>Varric</h4>
+                            <p>A helpful dwarf who never fights without his trusted crossbow, Bianca.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Leliana-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category2">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/dragonAge/Leliana_Spymaster.png">
+                        <img class="img-responsive" alt="" src="images/drawings/dragonAge/Leliana_Spymaster.png" />
+                        <div class='img-info'>
+                            <h4>Leliana</h4>
+                            <p>The Left Hand of the Divine, who became the Spymaster of the Inquisition.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Morrigan Witch of the Wilds-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category2">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/dragonAge/Morrigan.png">
+                        <img class="img-responsive" alt="" src="images/drawings/dragonAge/Morrigan.png" />
+                        <div class='img-info'>
+                            <h4>Witch of the Wilds Morrigan</h4>
+                            <p>A mysterious young woman from the Korcari Wilds.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Morrigan Advisor-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category2">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/dragonAge/Morrigan2.png">
+                        <img class="img-responsive" alt="" src="images/drawings/dragonAge/Morrigan2.png" />
+                        <div class='img-info'>
+                            <h4>Arcane Advisor Morrigan</h4>
+                            <p>Morrigan as the Arcane Advisor to the imperial court of Orlais.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Hawke-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category2">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/dragonAge/Hawke.png">
+                        <img class="img-responsive" alt="" src="images/drawings/dragonAge/Hawke.png" />
+                        <div class='img-info'>
+                            <h4>Hawke</h4>
+                            <p>The Hero of Kirkwall, main character of Dragon Age II.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Hollow Knight-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category1">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/gif/HollowKnight.gif">
+                        <img class="img-responsive" alt="" src="images/drawings/gif/HollowKnight.gif" />
+                        <div class='img-info'>
+                            <h4>The Kight</h4>
+                            <p>An animation of severals moves of the main character from Hollow Knight.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Lil Light-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category3">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/finalFantasy/LilLight.png">
+                        <img class="img-responsive" alt="" src="images/drawings/finalFantasy/LilLight.png" />
+                        <div class='img-info'>
+                            <h4>Lightning</h4>
+                            <p>A close-up of the model used in the Final Fantasy XIII animation I made.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Caius-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category3">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/finalFantasy/Caius.png">
+                        <img class="img-responsive" alt="" src="images/drawings/finalFantasy/Caius.png" />
+                        <div class='img-info'>
+                            <h4>Caius Ballad</h4>
+                            <p>The main antagonist from Final Fantasy XIII-2.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Midnight Mauve Lightning-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category3">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/finalFantasy/Midnight_Mauve_Lightning.png">
+                        <img class="img-responsive" alt="" src="images/drawings/finalFantasy/Midnight_Mauve_Lightning.png" />
+                        <div class='img-info'>
+                            <h4>Midnight Mauve Lightning</h4>
+                            <p>Lightning wearing the Midnight Mauve dress from Lightning Returns: Final Fantsay XIII.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Yeul-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category3">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/finalFantasy/Yeul.png">
+                        <img class="img-responsive" alt="" src="images/drawings/finalFantasy/Yeul.png" />
+                        <div class='img-info'>
+                            <h4>Yeul</h4>
+                            <p>A youg girl under the protection of Caius Ballad.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Ardyn-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category3">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/finalFantasy/Ardyn.png">
+                        <img class="img-responsive" alt="" src="images/drawings/finalFantasy/Ardyn.png" />
+                        <div class='img-info'>
+                            <h4>Ardyn</h4>
+                            <p>The main antagonist from Final Fantasy XV.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Lunafreya-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category3">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/finalFantasy/Lunafreya.png">
+                        <img class="img-responsive" alt="" src="images/drawings/finalFantasy/Lunafreya.png" />
+                        <div class='img-info'>
+                            <h4>Lunafreya Nox Fleuret</h4>
+                            <p>The Oracle, heir of the Tenebrae kingdom, from Final Fantasy XV.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Aloy-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category4">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/other/Aloy.png">
+                        <img class="img-responsive" alt="" src="images/drawings/other/Aloy.png" />
+                        <div class='img-info'>
+                            <h4>Aloy</h4>
+                            <p>The main charcter from Horizon Zero Dawn.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Watcher-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category4">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/other/Watcher.png">
+                        <img class="img-responsive" alt="" src="images/drawings/other/Watcher.png" />
+                        <div class='img-info'>
+                            <h4>Watcher</h4>
+                            <p>A hostile machine from Horizon Zero Dawn.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Fischl-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category4">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/other/Fischl.png">
+                        <img class="img-responsive" alt="" src="images/drawings/other/Fischl.png" />
+                        <div class='img-info'>
+                            <h4>Fischl</h4>
+                            <p>A character from Genshin Impact.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Suki-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category4">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/other/Suki.png">
+                        <img class="img-responsive" alt="" src="images/drawings/other/Suki.png" />
+                        <div class='img-info'>
+                            <h4>Suki</h4>
+                            <p>A warrior of Kyoshi from the show Avatar: The last Airbender.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Broken Vessel-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category4">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/other/BrokenVessel.png">
+                        <img class="img-responsive" alt="" src="images/drawings/other/BrokenVessel.png" />
+                        <div class='img-info'>
+                            <h4>Broken Vessel</h4>
+                            <p>A boss from Hollow Knight.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Alethiometer-->
+                <div class="gallery_product col-sm-2 col-xs-6 filter category4">
+                    <a class="fancybox" rel="ligthbox" href="images/drawings/other/Alethiometer.png">
+                        <img class="img-responsive" alt="" src="images/drawings/other/Alethiometer.png" />
+                        <div class='img-info'>
+                            <h4>Alethiometer</h4>
+                            <p>The magical compass from the book His Dark Materials.</p>
+                        </div>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+    <!--<script src="js/script.js"></script>-->
 
 </body>
 
