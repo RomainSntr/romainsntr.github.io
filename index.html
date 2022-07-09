@@ -1,75 +1,91 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Romain Santoro - Home</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-
-
-<body>
-
-    <!--Navigation bar-->
-    <div id="nav-placeholder">
-
-    </div>
-
-    <script>
-        $(function(){
-        $("#nav-placeholder").load("nav.html");
-        });
-    </script>
-    <!--end of Navigation bar-->
-
-    <!--<nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">Romain Santoro</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        Projects
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="syncom.html">Syncom</a></li>
-                        <li><a href="pictoquest.html">PictoQuest</a></li>
-                    </ul>
-                </li>
-                <li><a href="drawings.html">Drawings</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/fullpage.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Romain Santoro</title>
+  </head>
+  <body>
+    <div id="fullpage">
+      <div class="section page-1">
+        <div class="fireflies-container">
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
         </div>
-    </nav>-->
-
-    <div class="container">
-        <div class="jumbotron">
-            <h2 class="text-center">My profile</h2>
-            <p></p>
-            <p class=" text-justify">
-                I am a 22 year old engineering student at T&eacute;l&eacute;com SudParis, and currently majoring in
-                <strong>Video Games and Digital Interactions</strong>.
-                This major covers subjects such as Economy of video games, Game design, Virtual and Augmented Realty,
-                and Modeling with Blender.
-            </p>
+        <div class="profile-container">
+          <div class="picture-container">
+            <img src="./assets/img/profile.jfif" alt="Romain Santoro" />
+          </div>
+          <div class="profile-text">
+            <h1>Romain Santoro</h1>
             <p>
-                I've always been a creative person : drawing, writing a bit, building levels in Little Big Planet 2... I have
-                discovered a passion for pixel art three years ago and have been improving my technique as an autodidact ever since.
-                I'm also a long time fan of video games. I'm mostly into narrative games such as Life is Strange or Dragon Age, or games
-                with unique and beautiful artistic direction like Hollow Knight and Horizon : Zero Dawn. Loving both games and creativity naturally
-                lead me towards video game development.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+              saepe suscipit nobis
             </p>
+            <ul class="socials">
+              <li class="linkedin">
+                <a href="https://www.linkedin.com/in/romain-santoro/"></a>
+              </li>
+              <li class="itch">
+                <a href="https://romainsntr.itch.io/"></a>
+              </li>
+              <li class="cv">
+                <a
+                  href="./assets/pdf/Romain_Santoro-CV.pdf"
+                  target="_blank"
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
+      <div class="section page-2">
+        <div class="pitch-container">
+          <h2>Who am I ?</h2>
+          <p>
+            I am a 22 year old engineering student at T&eacute;l&eacute;com
+            SudParis, and currently majoring in
+            <strong>Video Games and Digital Interactions</strong>. This major
+            covers subjects such as Economy of video games, Game design, Virtual
+            and Augmented Realty, and Modeling with Blender.
+          </p>
+          <p>
+            I've always been a creative person : drawing, writing a bit,
+            building levels in Little Big Planet 2... I have discovered a
+            passion for pixel art three years ago and have been improving my
+            technique as an autodidact ever since. I'm also a long time fan of
+            video games. I'm mostly into narrative games such as Life is Strange
+            or Dragon Age, or games with unique and beautiful artistic direction
+            like Hollow Knight and Horizon : Zero Dawn. Loving both games and
+            creativity naturally lead me towards video game development.
+          </p>
+        </div>
+      </div>
+      <div class="section page-3">Some section</div>
+      <div class="section page-4">
+        <div class="slide">Slide 1</div>
+        <div class="slide">Slide 2</div>
+        <div class="slide">Slide 3</div>
+        <div class="slide">Slide 4</div>
+      </div>
     </div>
-
-</body>
-
-
+    <script src="./script/fullpage.js"></script>
+    <script src="./script/index.js"></script>
+  </body>
 </html>
